@@ -1,4 +1,3 @@
-import handleProfileSignup from './6-final-user.js';
+import handleProfileSignup from './6-final-user';
 
-handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg")
-  .then((result) => console.log(result));
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
